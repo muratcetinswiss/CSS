@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+:root {
+  --primaryColor: rgb(25, 119, 242);
+  --primaryColorHover: rgb(55, 122, 209);
+  --buttonColor: rgb(66, 183, 41);
+  --buttonColorHover: rgb(71, 158, 51);
+  --containerColor: rgb(239, 242, 245);
+  --textColor: rgb(27, 30, 33);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--containerColor);
+  font-family: "Roboto", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 73vh;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: baseline;
+  width: 100vw;
+  height: 27vh;
+  background-color: white;
+  font-size: 11px;
+  padding-top: 5px;
+  padding-left: 400px;
+}
+#f1l,
+#f2l,
+#f3l,
+#f4l {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2px;
+}
+footer a {
+  padding: 3px;
+  color: #adafb3;
+}
+#frb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #6d6d6d;
+  width: 1.5vw;
+  height: 2vh;
+  border: rgb(192, 192, 192) solid 0.2px;
+  border-radius: 2px;
+}
+#frb:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  background-color: rgba(192, 192, 192, 0.5);
+  width: 1.5vw;
+  height: 2vh;
+  border: rgb(192, 192, 192) solid 0.2px;
+  border-radius: 2px;
+  text-decoration: none;
+
+}
+#fline {
+  width: 60%;
+  height: 0.7%;
+  background-color: rgb(184, 183, 183);
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+#fend {
+  margin-top: 25px;
+  padding-bottom: 10px;
+  font-size: xx-small;
+  color: rgb(129, 127, 127);
+}
+#leftcontainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: 5vw;
+  width: 54vw;
+}
+#rightcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 46vw;
+}
+a {
+  text-decoration: none;
+  color: var(--buttonColor);
+}
+#a2 {
+  color: rgb(0, 0, 0);
+  font: bold;
+}
+button {
+  border: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+input {
+  width: 18.7vw;
+  padding: 7px;
+  margin: 2% 0;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+input:hover {
+    border: 1px solid rgb(70, 99, 226);
+}
+input:focus:hover {
+    outline: none !important;
+    border: 1px solid rgb(70, 99, 226);
+}
+input::placeholder {
+  color: gray;
+  font-weight: lighter;
+  font-size: 10px;
+}
+.btn {
+  width: 100%;
+  border-radius: 3px;
+  color: #fff;
+  padding: 7px;
+  margin: 2% 0;
+}
+.text__wrapper {
+  width: 37vw;
+  margin-right: 3%;
+  margin-top: 5%;
+}
+.heading {
+  position: relative;
+  left: -2vw;
+}
+.heading > img {
+  width: 250px;
+}
+.description {
+  color: var(--textColor);
+  font-weight: 900;
+  font-size: 27px;
+  float: left;
+}
+.form__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 21vw;
+  height: 38vh;
+  margin-top: 10%;
+  margin-left: 15px;
+  background-color: #fff;
+  padding: 1% 1% 1% 1%;
+  border-radius: 5px;
+  line-height: 150%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form {
+  margin-top: 2%;
+}
+.loginButton {
+  background-color: var(--primaryColor);
+  color: #fff;
+  margin-top: 2%;
+  width: 19.7vw;
+  line-height: 150%;
+}
+.loginButton:hover {
+  background-color: var(--primaryColorHover);
+}
+.forgotPassword {
+  color: var(--primaryColor);
+  font-size: 10px;
+}
+#fp {
+  display: flex;
+  justify-content: center;
+}
+#formline {
+  width: 19.7vw;
+  height: 1px;
+  background-color: rgb(216, 207, 207);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.registerButton {
+  background-color: var(--buttonColor);
+  color: #fff;
+  font-size: 10px;
+  width: 10vw;
+  padding: 8px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  line-height: 200%;
+}
+.registerButton:hover {
+  background-color: var(--buttonColorHover);
+}
+.formbottom {
+  width: 19.7vw;
+  margin-top: 5%;
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 11px;
+  font: bold;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  line-height: 150%;
+}
