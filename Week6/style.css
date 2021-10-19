@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/**color style**/
+html,
+#hleft,
+#hctop,
+.switch,
+#sl .circle,
+.hrline,
+#mleft,
+#mleft .circle,
+#mcenter,
+#mright,
+#fleft {
+  background-color: white;
+}
+#line1,
+#line2,
+#line3,
+#mlefttop,
+#mleftcenter,
+#fleft div {
+  background-color: #6cacf4;
+}
+.circle {
+  background-color: #80b5f5;
+}
+
+/**color style end**/
+
+html {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 5% 20%;
+}
+body {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  background-image: linear-gradient(to right, #63a6f1, #91c4fe);
+}
+/**header style**/
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 33%;
+  margin-top: 2%;
+}
+#hleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 36%;
+  height: 68.5%;
+}
+#line1 {
+  width: 84.2%;
+  height: 10.5%;
+  border-radius: 2px;
+}
+#line2 {
+  width: 84.2%;
+  height: 7.8%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  border-radius: 2px;
+}
+#line3 {
+  width: 22.1%;
+  height: 21.5%;
+  border-radius: 2px;
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.8vw;
+  height: 1.8vw;
+  border-radius: 100%;
+}
+#hcenter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  width: 43%;
+  height: 100%;
+}
+#hctop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 68.5%;
+}
+#play {
+  width: 0;
+  height: 0;
+  border-left: 1vw solid white;
+  border-top: 0.5vw solid transparent;
+  border-bottom: 0.5vw solid transparent;
+  margin-left: 0.2vw;
+}
+#hswitch {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 32.3%;
+  height: 30%;
+}
+.switch {
+  width: 45%;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+#sr {
+  display: flex;
+  justify-content: right;
+}
+#sl .circle {
+  border: #82bafa solid 0.1px;
+}
+#sr .circle {
+  border: white solid 0.1px;
+}
+#hright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 14%;
+  height: 100%;
+}
+.hrline {
+  width: 100%;
+  height: 6%;
+}
+/**header style end**/
+
+/**main style**/
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  height: 53%;
+  margin-top: -6%;
+}
+#mleft {
+  box-sizing: border-box;
+  display: flex;
+  width: 16%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+#mlefttop {
+  width: 41.6%;
+  height: 0.7%;
+}
+#mleftcenter {
+  width: 87%;
+  height: 77.8%;
+}
+#mleft .circle {
+  border: #82bafa solid 1.5px;
+  width: 1.2vw;
+  height: 1.2vw;
+}
+#mcenter {
+  display: flex;
+  box-sizing: border-box;
+  width: 48%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5vw;
+}
+#point {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-left: 1vw;
+}
+#point .circle {
+  width: 0.6vw;
+  height: 0.6vw;
+  margin-left: 0.3vw;
+  margin-right: 0.3vw;
+}
+#mright {
+  display: flex;
+  width: 30.6%;
+  height: 82.1%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.triple {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+.triangle {
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  margin-top: -0.9vw;
+}
+.ltri {
+  width: 0;
+  height: 0;
+  border-bottom: 2.2vw solid #6cacf4;
+  border-left: 2vw solid transparent;
+  border-right: 2vw solid transparent;
+}
+.rtri {
+  width: 0;
+  height: 0;
+  border-bottom: 4.4vw solid #6cacf4;
+  border-left: 3.6vw solid transparent;
+  border-right: 3.6vw solid transparent;
+  margin-left: -1.5vw;
+}
+/**main style end**/
+
+/**footer style**/
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 8%;
+  margin-bottom: 2%;
+}
+#fleft {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 66.9%;
+  height: 100%;
+  padding-left: 0.3%;
+}
+#fleft div {
+  width: 78%;
+  height: 90%;
+}
+.icon {
+  display: flex;
+  width: 4.66%;
+  height: 100%;
+}
+/**footer style end**/
